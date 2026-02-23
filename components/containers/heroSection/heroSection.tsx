@@ -14,7 +14,7 @@ const heroSection = () => {
               <div className="gap-5 w-30 h-100 border border-gray-300 rounded-full flex flex-col justify-center items-center">
                 <div className="w-17 h-17 border border-gray-300 rounded-full flex justify-center items-center">
                   <img
-                    src="/assets/logo/js.svg"
+                    src="/assets/logo/javascript.svg"
                     alt="Javascript"
                     className="w-13 h-13"
                   />

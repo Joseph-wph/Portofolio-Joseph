@@ -41,7 +41,7 @@ const codeDesignSection = () => {
         {/* javascript */}
         <div className="bg-secondary hidden lg:flex w-45 h-80 rounded-full flex-col justify-center items-center p-4 gap-4">
           <div className="bg-white rounded-full w-18 h-18 p-3 flex items-center justify-center">
-            <img src="/assets/logo/js.svg" alt="logo" className="w-15 h-15" />
+            <img src="/assets/logo/javascript.svg" alt="logo" className="w-15 h-15" />
           </div>
           <h1 className="font-semibold text-[20px]">Javascript</h1>
           <p className="text-[16px] text-center">
