@@ -23,7 +23,7 @@ const designAccuracySection = () => {
 
       <div className="flex flex-col lg:flex-row gap-5 mx-5 px-5 items-center justify-center">
         <div>
-          <div className="bg-gray-100 w-100 h-100 rounded-4xl p-4 relative">
+          <div className="bg-gray-100 w-100 h-110 rounded-4xl p-4 relative">
             <div className="absolute top-5 -left-8 px-5 py-2">
               <img
                 src="/assets/portofolio/diskonContainer.svg"
@@ -50,7 +50,7 @@ const designAccuracySection = () => {
         </div>
 
         <div>
-          <div className="bg-gray-100 w-100 h-100 rounded-4xl p-4 relative">
+          <div className="bg-gray-100 w-100 h-110 rounded-4xl p-4 relative">
             <div className="absolute top-5 -left-8 px-5 py-2">
               <img
                 src="/assets/portofolio/diskonContainer.svg"
@@ -77,7 +77,7 @@ const designAccuracySection = () => {
         </div>
 
         <div>
-          <div className="bg-gray-100 w-100 h-100 rounded-4xl p-4 relative">
+          <div className="bg-gray-100 w-100 h-110 rounded-4xl p-4 relative">
             <div className="absolute top-5 -left-8 px-5 py-2">
               <img
                 src="/assets/portofolio/diskonContainer.svg"
