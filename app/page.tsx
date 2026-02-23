@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <section
         id="home"
-        className="bg-[url('/assets/background/background.svg')] bg-cover bg-center min-h-screen flex flex-col"
+        className="bg-[url('/assets/background/background.svg')] bg-cover bg-center min-h-screen flex flex-col pt-24"
       >
         <Navbar />
         <HeroSection />

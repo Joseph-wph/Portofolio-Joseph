@@ -114,21 +114,21 @@ const heroSection = () => {
         </div>
 
         {/* ===== IMAGE SECTION ===== */}
-        <div className="order-3 lg:order-2 flex flex-col items-center w-full relative gap-5 lg:gap-20 overflow-hidden ">
+        <div className="order-3 lg:order-2 flex flex-col items-center w-full relative gap-20 lg:gap-20 ">
           <div className="mt-10 bg-primary-400 mx-auto rounded-full w-55 h-10 flex flex-row justify-center items-center p-3 gap-3">
             <FaCircle className="w-5 h-5 text-primary-200" />
             <h1 className="font-normal text-[16px] text-white">
               Available for Hire
             </h1>
           </div>
-          <div className="relative w-full h-100 lg:h-150 lg:mt-25 flex justify-center items-end">
+          <div className="relative w-full h-120 lg:h-150 lg:mt-25 flex justify-center items-end">
             {/* Text 1 */}
-            <h2 className="absolute top-15 lg:-top-63 left-3 lg:left-10 text-[50px] lg:text-[120px] text-white font-script1 italic z-30 -rotate-12">
+            <h2 className="absolute top-2 lg:-top-63 left-4 lg:left-10 text-[60px] lg:text-[120px] text-white font-script1 italic z-30 -rotate-12">
               Junior
             </h2>
 
             {/* Text 2 (gold) */}
-            <h1 className="absolute bottom-30 lg:bottom-90 text-[90px] lg:text-[200px] font-script2 text-[#E3B04B] leading-none z-0 text-center">
+            <h1 className="absolute bottom-50 lg:bottom-90 text-[120px] lg:text-[200px] font-script2 text-[#E3B04B] leading-none z-0 text-center">
               FRONTEND <br /> DEVELOPER
             </h1>
 
@@ -136,11 +136,11 @@ const heroSection = () => {
             <img
               src="/assets/image/person.svg"
               alt="profile"
-              className="absolute -bottom-10 lg:bottom-0 z-10 h-120 lg:h-185 object-contain"
+              className="absolute -bottom-5 lg:bottom-0 z-10 h-150 lg:h-185 object-contain"
             />
 
             {/* Outline Text */}
-            <h1 className="absolute bottom-30 lg:bottom-90 text-[90px] lg:text-[200px] font-script2 outline-text leading-none z-20 text-center">
+            <h1 className="absolute bottom-50 lg:bottom-90 text-[120px] lg:text-[200px] font-script2 outline-text leading-none z-20 text-center">
               <br /> DEVELOPER
             </h1>
           </div>

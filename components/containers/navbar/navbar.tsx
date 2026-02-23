@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="pt-5 lg:flex lg:justify-center font-heading relative z-50">
+      <nav className="fixed top-0 left-0 w-full z-50 pt-5 lg:flex lg:justify-center font-heading">
         <div className="bg-black/30 lg:w-138 lg:h-12 mx-4 my-4 rounded-full flex flex-row justify-between items-center px-5 py-3 lg:justify-center">
           <h1 className="font-bold text-[25px] text-white lg:hidden">Edwin</h1>
 
