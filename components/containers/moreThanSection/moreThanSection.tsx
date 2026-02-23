@@ -15,7 +15,7 @@ const moreThanSection = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-5 mx-5 justify-center items-center">
-        <div className="bg-secondary w-100 h-170 rounded-4xl flex flex-col justify-center items-center p-5 gap-5">
+        <div className="bg-secondary w-100 lg:w-150 h-170 rounded-4xl flex flex-col justify-center items-center p-5 gap-5">
           <h1 className="font-extrabold text-[27px]">With Me</h1>
           <Avatar className="bg-primary-300 w-30 h-30 flex items-end justify-center overflow-hidden rounded-full">
             <AvatarImage
@@ -54,7 +54,7 @@ const moreThanSection = () => {
           </p>
         </div>
 
-        <div className="border border-slate-400 w-100 h-170 rounded-4xl flex flex-col justify-center items-center p-5 gap-5">
+        <div className="border border-slate-400 w-100 lg:w-150 h-170 rounded-4xl flex flex-col justify-center items-center p-5 gap-5">
           <h1 className="font-extrabold text-[27px]">Another Talent</h1>
           <Avatar className="bg-gray-200 w-30 h-30 flex items-center justify-center overflow-hidden rounded-full">
             <AvatarImage

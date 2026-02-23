@@ -14,10 +14,10 @@ const codeDesignSection = () => {
         </p>
       </div>
       
-      <div className="flex flex-row items-center gap-5 mx-auto p-5">
+      <div className="flex flex-row items-center justify-center gap-5 mx-auto p-5">
 
         {/* html */}
-        <div className="bg-secondary w-50 h-80 rounded-full flex flex-col justify-center items-center p-4 gap-4">
+        <div className="bg-secondary w-45 h-80 rounded-full flex flex-col justify-center items-center p-4 gap-4">
           <div className="bg-white rounded-full w-18 h-18 p-3 flex items-center justify-center">
             <img src="/assets/logo/html.svg" alt="logo" className="w-10 h-10" />
           </div>
@@ -28,7 +28,7 @@ const codeDesignSection = () => {
         </div>
 
         {/* css */}
-        <div className="border-slate-400 border w-50 h-80 rounded-full flex flex-col justify-center items-center p-4 gap-4">
+        <div className="border-slate-400 border w-45 h-80 rounded-full flex flex-col justify-center items-center p-4 gap-4">
           <div className="bg-slate-100 rounded-full w-18 h-18 p-3 flex items-center justify-center">
             <img src="/assets/logo/css.svg" alt="logo" className="w-10 h-10" />
           </div>
@@ -39,7 +39,7 @@ const codeDesignSection = () => {
         </div>
 
         {/* javascript */}
-        <div className="bg-secondary hidden lg:flex w-50 h-80 rounded-full flex-col justify-center items-center p-4 gap-4">
+        <div className="bg-secondary hidden lg:flex w-45 h-80 rounded-full flex-col justify-center items-center p-4 gap-4">
           <div className="bg-white rounded-full w-18 h-18 p-3 flex items-center justify-center">
             <img src="/assets/logo/js.svg" alt="logo" className="w-15 h-15" />
           </div>
@@ -50,7 +50,7 @@ const codeDesignSection = () => {
         </div>
 
         {/* react */}
-        <div className="border-slate-400 hidden lg:flex border w-50 h-80 rounded-full flex-col justify-center items-center p-4 gap-4">
+        <div className="border-slate-400 hidden lg:flex border w-45 h-80 rounded-full flex-col justify-center items-center p-4 gap-4">
           <div className="bg-slate-100 rounded-full w-18 h-18 p-3 flex items-center justify-center">
             <img src="/assets/logo/react.svg" alt="logo" className="w-15 h-15" />
           </div>
