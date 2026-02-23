@@ -14,7 +14,7 @@ const codeDesignSection = () => {
         </p>
       </div>
       
-      <div className="flex flex-row items-center gap-5 mx-auto">
+      <div className="flex flex-row items-center gap-5 mx-auto p-5">
 
         {/* html */}
         <div className="bg-secondary w-50 h-80 rounded-full flex flex-col justify-center items-center p-4 gap-4">

@@ -15,15 +15,15 @@ const testimoni = () => {
         </p>
       </div>
 
-      <div className="relative w-120 lg:w-full h-120">
+      <div className="relative w-120 lg:w-full h-120 ">
         {/* Layer 1 */}
-        <div className="absolute top-1/2 -translate-y-[46%] lg:-translate-y-[40%] left-1/2 -translate-x-1/2 w-md lg:w-280 h-120 lg:h-90 bg-primary-300/20 rounded-4xl"></div>
+        <div className="absolute top-1/2 -translate-y-[46%] lg:-translate-y-[40%] left-1/2 -translate-x-1/2 w-70 lg:w-280 h-120 lg:h-90 bg-primary-300/20 rounded-4xl"></div>
 
         {/* Layer 2 */}
-        <div className="absolute top-1/2 -translate-y-[48%] lg:-translate-y-[45%] left-1/2 -translate-x-1/2 w-115 lg:w-290 h-120 lg:h-90 bg-primary-300/50 rounded-4xl"></div>
+        <div className="absolute top-1/2 -translate-y-[48%] lg:-translate-y-[45%] left-1/2 -translate-x-1/2 w-80 lg:w-290 h-120 lg:h-90 bg-primary-300/50 rounded-4xl"></div>
 
         {/* Layer 3 */}
-        <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-120 lg:w-300 h-120 lg:h-90 bg-primary-300 rounded-4xl p-7 gap-7 flex flex-col justify-center items-center text-white text-center">
+        <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-90 lg:w-300 h-120 lg:h-90 bg-primary-300 rounded-4xl p-7 gap-7 flex flex-col justify-center items-center text-white text-center">
           <div className="flex gap-3">
             {Array.from({ length: 5 }).map((_, i) => (
               <TbStarFilled key={i} className="text-yellow-400 w-5 h-5" />
