@@ -5,18 +5,18 @@ import { Separator } from "@/components/ui/separator";
 
 const heroSection = () => {
   return (
-    <div className="relative w-full lg:w-350 mx-auto pt-10 px-5 flex-1 flex flex-col justify-around">
-      <div className="font-heading mx-5 flex flex-col lg:flex-row flex-1 ">
+    <div className="relative w-full px-5 pt-10 flex-1 flex flex-col justify-around">
+      <div className="font-heading mx-5 flex flex-col lg:relative lg:min-h-225">
         {/* ===== LEFT CONTENT===== */}
-        <div className="order-1 lg:order-0">
+        <div className="order-1 lg:absolute lg:left-10 lg:top-1/2 lg:-translate-y-1/2">
           <div className="lg:flex lg:flex-col lg:gap-25">
             <div className="hidden lg:block">
               <div className="gap-5 w-30 h-100 border border-gray-300 rounded-full flex flex-col justify-center items-center">
                 <div className="w-17 h-17 border border-gray-300 rounded-full flex justify-center items-center">
                   <img
                     src="/assets/logo/javascript.svg"
-                    alt="Javascript"
-                    className="w-13 h-13"
+                    alt=""
+                    className="w-10 h-10"
                   />
                 </div>
                 <div className="w-17 h-17 border border-gray-300 rounded-full flex justify-center items-center">
@@ -60,7 +60,7 @@ const heroSection = () => {
         </div>
 
         {/* ===== RIGHT CONTENT===== */}
-        <div className="flex flex-col gap-5 text-white my-6 lg:w-55 order-2 lg:order-3">
+        <div className="flex flex-col gap-5 text-white my-6 order-2 lg:absolute lg:right-10 lg:top-1/2 lg:-translate-y-1/2 lg:w-70">
           <div className="flex flex-row lg:flex-col justify-between gap-5 h-20 lg:h-50">
             <div className="flex flex-col gap-1">
               <h1 className="font-extrabold text-[35px]">2+</h1>
@@ -114,14 +114,14 @@ const heroSection = () => {
         </div>
 
         {/* ===== IMAGE SECTION ===== */}
-        <div className="order-3 lg:order-2 flex flex-col items-center w-full relative gap-20 lg:gap-20 ">
+        <div className="order-3 lg:order-2 flex flex-col items-center relative gap-20">
           <div className="mt-10 bg-primary-400 mx-auto rounded-full w-55 h-10 flex flex-row justify-center items-center p-3 gap-3">
             <FaCircle className="w-5 h-5 text-primary-200" />
             <h1 className="font-normal text-[16px] text-white">
               Available for Hire
             </h1>
           </div>
-          <div className="relative w-full h-120 lg:h-150 lg:mt-25 flex justify-center items-end">
+          <div className="relative w-full h-120 lg:h-150 lg:mt-25 flex justify-center items-end text-center max-w-250">
             {/* Text 1 */}
             <h2 className="absolute top-2 lg:-top-63 left-4 lg:left-10 text-[60px] lg:text-[120px] text-white font-script1 italic z-30 -rotate-12">
               Junior
@@ -136,7 +136,7 @@ const heroSection = () => {
             <img
               src="/assets/image/person.svg"
               alt="profile"
-              className="absolute -bottom-5 lg:bottom-0 z-10 h-150 lg:h-185 object-contain"
+              className="absolute -bottom-5 lg:-bottom-10 z-10 h-150 lg:h-185 object-contain"
             />
 
             {/* Outline Text */}
