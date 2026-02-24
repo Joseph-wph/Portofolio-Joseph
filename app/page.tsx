@@ -15,41 +15,41 @@ export default function Home() {
     <main>
       <section
         id="home"
-        className="bg-[url('/assets/background/background.svg')] bg-cover bg-center min-h-screen flex flex-col pt-24"
+        className="bg-[url('/assets/background/background.svg')] bg-cover bg-center max-w-full min-h-screen flex flex-col pt-24"
       >
         <Navbar />
         <HeroSection />
       </section>
 
-      <section id="about" className="bg-white">
+      <section id="about">
         <AsFrontendSection />
       </section>
 
-      <section id="skill" className="bg-white">
+      <section id="skill">
         <CodeDesignSection />
       </section>
 
-      <section className="bg-white">
+      <section>
         <MoreThanSection />
       </section>
 
-      <section id="projects" className="bg-white">
+      <section id="projects">
         <DesignAccuracySection />
       </section>
 
-      <section className="bg-white">
+      <section>
         <ExperienceSection />
       </section>
 
-      <section className="bg-white">
+      <section>
         <Testimoni />
       </section>
 
-      <section id="faq" className="bg-white">
+      <section id="faq">
         <ClearSection />
       </section>
 
-      <section id="contact" className="bg-white">
+      <section id="contact">
         <WorkSection />
       </section>
 
